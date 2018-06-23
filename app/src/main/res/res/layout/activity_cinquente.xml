@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/amine2"
+    tools:context=".E50Activity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fff"
+        android:maxLines="1"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_login"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:textColor="#ff0000"
+        android:divider="#ff0000"
+        android:dividerHeight="3dip">
+
+    </ListView>
+
+
+</LinearLayout>
+

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/amine2"
+    tools:context="com.example.gagafree.myapplication60000.E20Activity">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fff"
+
+
+        android:ems="10"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="Show Map Of Users"
+
+        android:drawableLeft="@drawable/ic_place_black_24dp"
+
+        android:background="@drawable/background_login"
+
+        android:textColor="#ff001b"
+        android:textAllCaps="false"
+        android:padding="8dp"
+        android:clickable="true"
+
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:text="Show Graphics"
+        android:drawableLeft="@drawable/ic_timeline_black_24dp"
+
+        android:background="@drawable/background_login"
+
+        android:textColor="#ff001b"
+        android:textAllCaps="false"
+        android:padding="8dp"
+        android:clickable="true"
+
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3"
+        android:text="Show Warnings"
+
+        android:drawableLeft="@drawable/ic_warning_black_24dp"
+
+        android:background="@drawable/background_login"
+
+        android:textColor="#ff001b"
+        android:textAllCaps="false"
+        android:padding="8dp"
+        android:clickable="true"
+
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b4"
+        android:text="Show Login History"
+
+        android:drawableLeft="@drawable/ic_directions_run_black_24dp"
+
+        android:background="@drawable/background_login"
+
+        android:textColor="#ff001b"
+        android:textAllCaps="false"
+        android:padding="8dp"
+        android:clickable="true"
+
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

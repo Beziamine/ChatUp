@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/new_login_gradients"
+    tools:context=".ChatActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+
+        <EditText
+            android:id="@+id/t1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:ems="10"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:background="@drawable/background_login"
+            android:layout_marginTop="12dp"
+            android:textColor="#ff0000"
+
+            />
+
+        <Button
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_login"
+            android:text="Send"
+            android:textColor="#ff0000"
+            android:textAllCaps="false"
+            android:clickable="true"
+            android:id="@+id/btn"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_marginTop="12dp"
+            android:drawablePadding="4dp"
+            android:ems="10"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="17sp"/>
+
+        />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_login"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:textColor="#ff0000"
+        android:divider="#ff0000"
+        android:dividerHeight="3dip">
+
+    </ListView>
+
+
+</LinearLayout>
+
